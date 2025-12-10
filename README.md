@@ -1,11 +1,10 @@
 H&M Product Showcasing
 
-A simple, clean, and responsive iOS application that displays a paginated product grid for H&M “jeans” using jeans Search API.
+A simple, clean, and responsive iOS application that displays a paginated product grid for H&M “jeans” using the jeans Search API.
 The project focuses on code quality, performance, accessibility, and best practices—following the requirements of the assignment.
 
 
 ✨ Features
-🧩 Core Functionality
 
 Displays H&M "jeans" in a 2-column grid, edge-to-edge.
 
@@ -26,14 +25,6 @@ Price
 Swatches
 
 Favorite button
-
-💡 UX / Design
-
-Zero horizontal margin (H&M style).
-
-Top-aligned grid items.
-
-Clean, minimalistic card layout.
 
 
 🎨 Accessibility
@@ -61,20 +52,14 @@ Actor-based image cache
 Unit tests included for some basic functionalities
 
 🔧 Tech Stack
-Technology	Purpose
-SwiftUI	UI, layout, accessibility
-Swift Concurrency	Networking, image loading
-URLSession	API calls
-Actors	Safe image caching
-XCTest	Unit tests
-H&M Search API	Product data
+
+iOS, Swift, SwiftUI
+
 📡 API
 
 H&M Search API (Jeans query):
 
 https://api.hm.com/search-services/v1/sv_se/search/resultpage?touchPoint=ios&query=jeans&page=1
-
-
 
 
 🚀 Getting Started
