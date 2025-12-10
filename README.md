@@ -1,1 +1,120 @@
-# ProductShowcasing
+H&M Product Showcasing
+
+A simple, clean, and responsive iOS application that displays a paginated product grid for H&M “jeans” using jeans Search API.
+The project focuses on code quality, performance, accessibility, and best practices—following the requirements of the assignment.
+
+
+✨ Features
+🧩 Core Functionality
+
+Displays H&M "jeans" in a 2-column grid, edge-to-edge.
+
+Fixed image height with vertical centering.
+
+Infinite scrolling with auto-load more.
+
+Pull-to-refresh (iOS 15+).
+
+Product cards include:
+
+Image
+
+Title
+
+Price
+
+Swatches
+
+Favorite button
+
+💡 UX / Design
+
+Zero horizontal margin (H&M style).
+
+Top-aligned grid items.
+
+Clean, minimalistic card layout.
+
+
+🎨 Accessibility
+
+VoiceOver-friendly cards (combined labels).
+
+Dynamic Type support (uses text styles, not fixed fonts).
+
+Fully supports Dark Mode via system colors.
+
+
+⚙️ Architecture
+
+MVVM
+
+Async/await (Swift Concurrency)
+
+Dependency Injection (mockable services)
+
+Actor-based image cache
+
+
+🧪 Testing
+
+Unit tests included for some basic functionalities
+
+🔧 Tech Stack
+Technology	Purpose
+SwiftUI	UI, layout, accessibility
+Swift Concurrency	Networking, image loading
+URLSession	API calls
+Actors	Safe image caching
+XCTest	Unit tests
+H&M Search API	Product data
+📡 API
+
+H&M Search API (Jeans query):
+
+https://api.hm.com/search-services/v1/sv_se/search/resultpage?touchPoint=ios&query=jeans&page=1
+
+
+
+
+🚀 Getting Started
+Requirements
+
+iOS 15+
+
+Xcode 15+
+
+Swift 5.7+
+
+Run
+git clone https://github.com/yourusername/hm-product-list.git
+cd hm-product-list
+open HMProductApp.xcodeproj
+
+
+Build & run on any iOS simulator.
+
+🧪 Run Tests
+
+Press:
+
+⌘ + U
+
+
+Or via terminal:
+
+xcodebuild -scheme HMProductApp -destination 'platform=iOS Simulator' test
+
+
+📝 Future Improvements
+
+Favorites persistence (UserDefaults / SwiftData)
+
+Improved error states
+
+UX improvement
+
+
+📄 License
+
+This project is for demo and interview purposes only and is not affiliated with H&M.
