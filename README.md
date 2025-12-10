@@ -73,7 +73,9 @@ Swift 5.7+
 
 Run
 git clone https://github.com/MdShahedMamun/ProductShowcasing
+
 cd ProductShowcasing
+
 open HMProductApp.xcodeproj
 
 
