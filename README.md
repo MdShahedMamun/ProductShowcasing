@@ -72,8 +72,8 @@ Xcode 15+
 Swift 5.7+
 
 Run
-git clone https://github.com/yourusername/hm-product-list.git
-cd hm-product-list
+git clone https://github.com/MdShahedMamun/ProductShowcasing
+cd ProductShowcasing
 open HMProductApp.xcodeproj
 
 
